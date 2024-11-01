@@ -1,11 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Get Meta Data",
-  "version": "1.0",
+  "version": "1.2.1",
   "description": "Extracts the meta data of the current web page",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "index.html",
-    "default_title": "Get Page Title"
+    "default_title": "Get Page Title",
+    "default_icon": "logo.jpeg"
   }
 }
